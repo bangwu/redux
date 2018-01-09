@@ -1,7 +1,7 @@
 import ActionTypes from './utils/actionTypes'
 import warning from './utils/warning'
 import isPlainObject from './utils/isPlainObject'
-import { generateActionType } from "./utils/generateActionType";
+import generateActionType from './utils/generateActionType'
 
 function getUndefinedStateErrorMessage(key, action) {
   const actionType = action && action.type

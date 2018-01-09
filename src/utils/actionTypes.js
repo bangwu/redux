@@ -4,7 +4,7 @@
  * If the current state is undefined, you must return the initial state.
  * Do not reference these action types directly in your code.
  */
-import { generateActionType } from "./generateActionType";
+import generateActionType from './generateActionType'
 
 const ActionTypes = {
   INIT: generateActionType('@@redux/INIT'),
